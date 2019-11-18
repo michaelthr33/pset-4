@@ -5,6 +5,7 @@ let value=0
 let digit=0
 let scinot=0
 let odd=0
+
 do {
   positive=(readlineSync.question("Positive integer: "))
 }
