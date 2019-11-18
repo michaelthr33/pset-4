@@ -6,7 +6,7 @@ let digit=0
 let scinot=0
 let odd=0
 do {
-  positive= (readlineSync.question("Positive integer: "))
+  positive=(readlineSync.question("Positive integer: "))
 }
 while (positive<0||positive>MAX);
 
@@ -14,8 +14,9 @@ let number = Number(positive);
 let length= positive.length;
 length=length-1;
 scinot= Math.pow(10,length);
-value= positive/scinot;
+value= number/scinot;
 digit= Math.ceil(value);
+
 while (length>0){
  length=length-1;
 value=value*10;
@@ -24,4 +25,4 @@ digit=Math.ceil(value);
  }
 
 
-console.log(odd)
+console.log(odd);
