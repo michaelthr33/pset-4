@@ -17,7 +17,8 @@ scinot= Math.pow(10,length);
 value= number/scinot;
 digit= Math.ceil(value);
 
-while (length>0){
+while (length>0)
+{
  length=length-1;
 value=value*10;
 digit=Math.ceil(value);
