@@ -12,7 +12,7 @@ while (positive<0||positive>MAX);
 
 let number = Number(positive);
 let length= positive.length;
-length=length-1;
+length= length-1;
 scinot= Math.pow(10,length);
 value= number/scinot;
 digit= Math.ceil(value);
