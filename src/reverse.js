@@ -11,6 +11,6 @@ positive=Number(positive);
 length=lenght-1
 
 let ceiling=(Math.pow(length,10))
-let firstvalue=Math.ceil(positive);
+let firstvalue=Math.ceil(ceilings);
 positive=positive-firstvalue
 let ceiling=
