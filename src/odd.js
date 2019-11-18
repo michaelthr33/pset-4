@@ -12,7 +12,7 @@ do {
 while (positive<=0||positive>MAX);
 
 let number = Number(positive);
-let length=(positive.length);
+let length=(positive.length); 
 length=Number(length);
 length= length-1;
 scinot= Math.pow(10,length);
