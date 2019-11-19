@@ -24,6 +24,6 @@ while (length>0)
 length=length-1;
 value=value*10;
 digit=Math.ceil(value);
- if (digit%2>0||digit%2<0) {odd==odd+digit};
+ if (digit%2>0||digit%2<0) {odd=odd+digit};
  }
 console.log(""+odd+".");
