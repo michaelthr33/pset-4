@@ -8,9 +8,13 @@ do {
 
 let length=positive.length;
 positive=Number(positive);
-length=lenght-1
+length=length-1
 
 let ceiling=(Math.pow(length,10))
 let firstvalue=Math.ceil(ceilings);
 positive=positive-firstvalue
-let ceiling=
+
+while (length>0){
+  length=length-1
+  Z
+}
