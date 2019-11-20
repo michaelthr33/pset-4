@@ -12,7 +12,7 @@ do {
 while (positive<=0||positive>MAX);
 
 let number = Number(positive);
-let length=(positive.length); 
+let length=(positive.length);
 length=Number(length);
 length= length-1;
 scinot= Math.pow(10,length);
@@ -21,9 +21,9 @@ digit= Math.ceil(value);
 
 while (length>0)
 {
-length=length-1;
-value=value*10;
-digit=Math.ceil(value);
- if (digit%2>0||digit%2<0) {odd=odd+digit};
+  length=length-1;
+  value=value*10;
+  digit=Math.ceil(value);
+  if (digit%2>0||digit%2<0) {odd=odd+digit};
  }
 console.log(""+odd+".");
