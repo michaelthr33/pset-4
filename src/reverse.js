@@ -16,5 +16,5 @@ positive=positive-firstvalue
 
 while (length>0){
   length=length-1
-  Z
+  
 }

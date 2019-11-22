@@ -12,18 +12,20 @@ do {
 while (positive<=0||positive>MAX);
 
 let number = Number(positive);
-let length=(positive.length);
-length=Number(length);
-length= length-1;
-scinot= Math.pow(10,length);
-value= number/scinot;
-digit= Math.ceil(value);
+let length = (positive.length);
+length = Number(length);
+length = length-1;
+scinot = Math.pow(10,length);
+value = number/scinot;
 
-while (length>0)
+
+while (length>=0)
 {
-  length=length-1;
-  value=value*10;
-  digit=Math.ceil(value);
+  digit = Math.ceil(value);
+  value = value-digit
+  value = value*10;
+  length = length-1;
+
   if (digit%2>0||digit%2<0) {odd=odd+digit};
  }
 console.log(""+odd+".");
