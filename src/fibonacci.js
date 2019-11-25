@@ -6,6 +6,7 @@ let counter=1
 let a = 0
 let b = 1
 let placeholder=0
+console.log()
 do
 {
   positive=Number(readlineSync.question("Positive integer: "))
@@ -20,3 +21,4 @@ while(positive>0)
 }
 console.log( )
 console.log(a)
+console.log()

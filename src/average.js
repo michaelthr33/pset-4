@@ -4,6 +4,7 @@ const MIN= Number.MIN_SAFE_INTEGER
 let positive=0
 let sum=0
 let counter=0
+console.log()
  do{
    positive =Number(readlineSync.question("Non-negative integer: "))
    if(positive>=0&positive<=MAX){
@@ -12,4 +13,6 @@ let counter=0
  }
 } while(positive>=0&positive<MAX);
 let average= sum/counter
+console.log()
 console.log(average)
+console.log()

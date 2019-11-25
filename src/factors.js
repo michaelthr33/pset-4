@@ -5,6 +5,7 @@ let positive=0
 let sum=0
 let counter=0
 let message=""
+console.log()
  do
  {
   positive=Number(readlineSync.question("Positive Integer: "))
@@ -17,5 +18,6 @@ let message=""
   counter=counter+1
 }
   while(positive<0&positive>MAX)
-
+  console.log()
   console.log(message)
+  console.log()

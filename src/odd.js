@@ -7,7 +7,9 @@ let scinot=0
 let odd=0
 let number=1
 let length=0
-do {
+console.log()
+do
+{
   positive=(readlineSync.question("Positive integer: "))
   number = Number(positive);
 }
@@ -27,5 +29,7 @@ while (length>=0)
   length = length-1;
 
   if (digit%2>0||digit%2<0) {odd=odd+digit;}
- }
+}
+console.log()
 console.log(""+odd+".");
+console.log()

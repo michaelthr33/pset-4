@@ -3,10 +3,12 @@ const readlineSync = require("readline-sync");
 const MAX=Number.MAX_SAFE_INTEGER;
 const MIN=Number.MIN_SAFE_INTEGER;
 let number=0
+console.log()
 do
 {
   number=Number(readlineSync.question("Height: "))
 } while(number<1||number>24||Number.isNaN(number))
+console.log()
 if(number>=1){console.log("                      ## ##")}
 if(number>=2){console.log("                     ### ###")}
 if(number>=3){console.log("                    ####  ####")}
@@ -30,3 +32,4 @@ if(number>=21){console.log("   #####################  #####################")}
 if(number>=22){console.log("  ######################  ######################")}
 if(number>=23){console.log(" #######################  #######################")}
 if(number>=24){console.log("########################  ########################")}
+console.log()

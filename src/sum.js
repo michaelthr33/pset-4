@@ -3,7 +3,7 @@ const MAX= Number.MAX_SAFE_INTEGER
 const MIN= Number.MIN_SAFE_INTEGER
 let lowerbound=0
 let upperbound=1
-
+console.log()
 do {
  lowerbound = Number(readlineSync.question("Lower bound: "));
  upperbound = Number(readlineSync.question("Upper bound: "));
@@ -17,5 +17,6 @@ let counter = sum * 2
 while(lowerbound<=upperbound){
   if(lowerbound%2>=0&&lowerbound%2<=0){sum=sum+lowerbound;
   }lowerbound++;}
-
+console.log()
 console.log(''+sum+'.')
+console.log()

@@ -1,20 +1,24 @@
-var readlineSync = require('readline-sync');
+const readlineSync = require('readline-sync');
 const MAX= Number.MAX_SAFE_INTEGER
 const MIN= Number.MIN_SAFE_INTEGER
-let positive="hello"
+let value=0
+let digit=0
+let spacing=",";
+let reverse="";
+console.log()
 do {
-  positive=(readlineSync.question("Positive Integer: "))
-} while(positive>=MAX||positive<=0)
+  value=(readlineSync.question("Positive Integer: "))
+} while(value>=MAX||value<=0||Number.isNaN(value))
 
-let length=positive.length;
-positive=Number(positive);
-length=length-1
+do
+{
+  digit=value % 10;
+  reverse=reverse + digit + spacing;
+  value=value - digit;
+  value=value / 10;
+} while(value >= 10)
 
-let ceiling=(Math.pow(length,10))
-let firstvalue=Math.ceil(ceilings);
-positive=positive-firstvalue
-
-while (length>0){
-  length=length-1
-  
-}
+reverse=reverse + value + "."
+console.log();
+console.log("" + reverse + "")
+console.log()
